@@ -1,0 +1,62 @@
+---
+title: "7.14.x Releases"
+weight: 9850
+---
+
+:toc:
+:toc-title:
+:toclevels: 1
+:icons: font
+:imagesdir: /images/en/admin/release
+
+== 7.14.0-beta
+
+_Released 24/07/2023_
+
+=== icon:box-open[] Assets
+
+* https://suitecrm.com/download/[Download]
+* https://github.com/salesagility/SuiteCRM[Github]
+
+===  icon:check[] Release Notes
+
+==== icon:star[] Enhancements
+
+===== Smarty Upgrade
+
+Smarty, the templating engine used in SuiteCRM 7.x, has been upgraded to v4 which brings some minor performance improvements
+and better compatibility going forward.
+
+===== PHP 8.2 Support
+
+This release brings a number of adjustments and updates in order to support PHP 8.2.
+
+This includes:
+
+* Removal of deprecated functions/ features.
+* Update functions to PHP 8.2 standard.
+* Fixed Unit & Acceptance Tests
+* Executed Rector to clean up code.
+* Fixed code to eliminate warnings from logs.
+
+==== Known Issues
+
+* Merging duplicates on Contacts and Leads results in Fatal Error.
+* Importing Emails Fails.
+
+==== icon:bug[] Bug Fixes
+
+* PR: https://github.com/salesagility/SuiteCRM/pull/10116[10116] - Fix https://github.com/salesagility/SuiteCRM/issues/10053[#10053] - Issue when creating new tabs on Dashlets
+
+=== icon:heart[] Community
+
+_Special thanks to the following members for their contributions and participation in this release!_
+
+{{% ghcontributors ibanvaqe %}}
+
+Please https://suitecrm.com/download[visit the official website] to find the appropriate upgrade package.
+
+To report any security issues please follow our Security Process and send them directly to us via email security@suitecrm.com
+
+'''
+
