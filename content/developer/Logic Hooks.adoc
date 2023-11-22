@@ -286,7 +286,7 @@ rebuild in the admin menu for this to be picked up.
 The logic hook function itself will vary slightly based on the logic
 hook type. For module hooks it will appear similar to:
 
-.Example 12.2: Example logic hook method
+.Example 12.2: Example logic hook method 
 [source,php]
 ----
      class SomeClass
@@ -330,7 +330,7 @@ The $event argument contains the logic hook event e.g `process_record`,
 `before_save`, +
 `after_delete` etc.
 
-$arguments (`array`) ::
+$arguments (`array`) :
 The $arguments argument contains any additional details of the logic
 hook event. I.e. in the case of before_relationship_add this will
 contain details of the related modules.
